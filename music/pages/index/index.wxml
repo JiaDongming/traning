@@ -1,0 +1,210 @@
+<view class="root-m">
+  <!-- 顶部搜索 -->
+  <view class='search'>
+    <view class='search-left'>
+      <icon type='search' size='15'></icon>
+      <input class='search-input' type='text' placeholder='影子爱人'></input>
+    </view>
+    <view class='search-right'>
+      <view class='clock'>
+        <icon type='waiting' color='#cecece' size='15'></icon>
+        <text>定时</text>
+      </view>
+      <view class='download'>
+        <icon type='download' color='#cecece' size='15'></icon>
+        <text>下载</text>
+      </view>
+    </view>
+  </view>
+  <!-- /* 导航栏nav */ -->
+  <view class='nav'>
+    <view class='nav-active'>
+      <text>推荐</text>
+    </view>
+    <view>
+      <text>精选</text>
+    </view>
+    <view>
+      <text>分类</text>
+    </view>
+    <view>
+      <text>广播</text>
+    </view>
+    <view>
+      <text>我的</text>
+    </view>
+  </view>
+  <!-- 轮播图 -->
+  <view class='swip'>
+    <swiper class='swip-content' indicator-dots='true' indicator-color='#fff' indicator-active-color='#f1c886' autoplay='true' interval='3000'>
+      <swiper-item>
+        <image mode='aspectFill' src='http://bpic.588ku.com/back_pic/03/68/15/9057b2a830b8ea8.jpg!r850/fw/800'></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode='aspectFill' src='http://bpic.588ku.com/back_pic/05/65/89/035b73a70e40959.jpg!r850/fw/800'></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode='aspectFill' src='http://bpic.588ku.com/back_pic/02/65/33/055787835ec57a8.jpg!r850/fw/800'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 内容区域，包括菜单列表，播放列表-->
+  <view class='content'>
+    <!-- 菜单列表 -->
+    <view class='con-nav-list'>
+      <view class='con-nav-item'>
+        <image src='/img/book.png'></image>
+        <text>小说</text>
+      </view>
+      <view class='con-nav-item'>
+        <image src='/img/情感.png'></image>
+        <text>情感</text>
+      </view>
+      <view class='con-nav-item'>
+        <image src='/img/音乐.png'></image>
+        <text>音乐</text>
+      </view>
+      <view class='con-nav-item'>
+        <image src='/img/知识.png'></image>
+        <text>知识</text>
+      </view>
+      <view class='con-nav-item'>
+        <image src='/img/直播.png'></image>
+        <text>直播</text>
+      </view>
+      <view class='con-nav-item'>
+        <image src='/img/榜单.png'></image>
+        <text>榜单</text>
+      </view>
+      <view class='con-nav-item'>
+        <image src='/img/跑步.png'></image>
+        <text>跑步</text>
+      </view>
+      <view class='con-nav-item'>
+        <image src='/img/随心听.png'></image>
+        <text>随心听</text>
+      </view>
+    </view>
+    <!-- 歌单列表 -->
+    <view class='con-music-list'>
+      <view class='music-list-header'>
+        <text>本次为您加载了两条信息</text>
+      </view>
+
+    <scroll-view  scroll-y style='height:420rpx;' >
+      <view class='music-items'>
+
+        <view class='music-item'>
+          <view class='music-item-left'>
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535541558&di=7220c08159ea0f74cc2be2f88ae5cff5&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.dzwww.com%2Fyule%2Fyulezhuanti%2Fyanpo%2F201507%2FW020150709281317034234.jpg'></image>
+          </view>
+          <view class='music-item-right'>
+            <text class='music-item-title'>陪你上下班一起听歌</text>
+            <view class='star'>
+              <image src='/img/Star.png'></image>
+              <image src='/img/Star.png'></image>
+              <image src='/img/Star.png'></image>
+              <image src='/img/Star.png'></image>
+              <image src='/img/Star.png'></image>
+            </view>
+
+            <view class='music-item-info'>
+              <view class='face-album'>
+                <view class='face'>
+                  <image src='http://img0.imgtn.bdimg.com/it/u=3159251035,1716562534&fm=214&gp=0.jpg'></image>
+                </view>
+                <view class='album'>
+                  <text> 邂逅陈先生</text>
+                </view>
+              </view>
+
+              <view class='del'>
+                <image src='/img/del.png'></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class='music-items'>
+        <view class='music-item'>
+          <view class='music-item-left'>
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535541558&di=7220c08159ea0f74cc2be2f88ae5cff5&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.dzwww.com%2Fyule%2Fyulezhuanti%2Fyanpo%2F201507%2FW020150709281317034234.jpg'></image>
+          </view>
+          <view class='music-item-right'>
+            <text class='music-item-title'>陪你上下班一起听歌</text>
+            <view class='star'>
+              <image src='/img/Star.png'></image>
+              <image src='/img/Star.png'></image>
+              <image src='/img/Star.png'></image>
+              <image src='/img/Star.png'></image>
+              <image src='/img/Star.png'></image>
+            </view>
+            <view class='music-item-info'>
+              <view class='face-album'>
+                <view class='face'>
+                  <image src='http://img0.imgtn.bdimg.com/it/u=3159251035,1716562534&fm=214&gp=0.jpg'></image>
+                </view>
+                <view class='album'>
+                  <text> 邂逅陈先生</text>
+                </view>
+              </view>
+              <view class='del'>
+                <image src='/img/del.png'></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class='music-items'>
+        <view class='music-item'>
+          <view class='music-item-left'>
+            <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535541558&di=7220c08159ea0f74cc2be2f88ae5cff5&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.dzwww.com%2Fyule%2Fyulezhuanti%2Fyanpo%2F201507%2FW020150709281317034234.jpg'></image>
+          </view>
+          <view class='music-item-right'>
+            <text class='music-item-title'>陪你上下班一起听歌</text>
+            <view class='star'>
+              <image src='/img/Star.png'></image>
+              <image src='/img/Star.png'></image>
+              <image src='/img/Star.png'></image>
+              <image src='/img/Star.png'></image>
+              <image src='/img/Star.png'></image>
+            </view>
+            <view class='music-item-info'>
+              <view class='face-album'>
+                <view class='face'>
+                  <image src='http://img0.imgtn.bdimg.com/it/u=3159251035,1716562534&fm=214&gp=0.jpg'></image>
+                </view>
+                <view class='album'>
+                  <text> 邂逅陈先生</text>
+                </view>
+              </view>
+              <view class='del'>
+                <image src='/img/del.png'></image>
+              </view>
+            </view>
+          </view>
+           
+        </view>
+
+      </view>
+         </scroll-view>
+    </view>
+
+  </view>
+<!-- 底部播放器 -->
+  <view class='play'>
+    <view class='play-left'>
+      <view class='left-avanta'> <image src='http://img0.imgtn.bdimg.com/it/u=3159251035,1716562534&fm=214&gp=0.jpg'></image></view>
+      <view class='left-content'>
+        <view class='left-conent-top'><text>敞开心扉唱老歌...</text></view>
+        <view class='left-conent-bottom'><text>左右滑动切换节目</text></view>
+      </view>
+    </view>
+    <view class='play-right'>
+      <view class='play-icon'> <image src='/img/play.png'></image></view>
+      <view class='play-list'> <image src='/img/list.png'></image></view>
+    </view>
+  </view>
+</view>

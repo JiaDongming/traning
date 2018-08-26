@@ -1,0 +1,205 @@
+/* 顶部搜索 */
+.search {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-left {
+  position: relative;
+  flex: 8;
+  margin:  0 5px 4rpx 5px;
+}
+
+.search-left icon {
+  position: absolute;
+  top: 15rpx;
+  left: 7rpx;
+}
+.search-left .search-input {
+  background: #ebebeb;
+  border-radius: 8rpx;
+  padding-left: 25px;
+  height: 40rpx;
+}
+
+.search-right {
+  margin: 8rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 2;
+  font-size: 10px;
+  color: #cecece;
+}
+
+.search-right .clock,.search-right .download {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 导航栏nav */
+.nav {
+  display: flex;
+  justify-content: space-around;
+  color: #5b5b5b;
+}
+
+.nav .nav-active {
+  color: #dbccae;
+  border-bottom: 2px solid #dbccae;
+}
+
+/* swip轮播图 */
+.swip {
+  margin: 5rpx auto;
+  width: 100%;
+  height: 320rpx;
+}
+
+/* 内容区域 */
+  /* 内容区域-nav列表 */
+
+.con-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 60rpx;
+}
+
+.con-nav-item {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rpx;
+  color: #969696;
+}
+
+.con-nav-item image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.con-nav-item text {
+  font-size: 14px;
+}
+
+/* 音乐列表 */
+.music-list-header {
+  color: #b8b8b8;
+  font-size: 12px;
+  text-align: center;
+  border-top: 3rpx solid #ebebeb;
+  margin-top: 5rpx;
+}
+
+.music-list-header text {
+  height: 40rpx;
+  line-height: 40rpx;
+}
+
+.music-item {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 6rpx;
+}
+.music-item-left {
+  flex: 1;
+}
+.music-item-left image {
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.music-item-right {
+  display: flex;
+  flex: 6;
+  flex-direction: column;
+  border-bottom: 1px solid #e8be8e8e;
+  padding-left: 5px;
+  
+
+}
+
+
+.star {
+  display: flex;
+  margin: 16rpx 0;
+
+}
+.star image {
+  width: 28rpx;
+  height: 28rpx;
+
+}
+.face image {
+  width: 40rpx;
+  height: 40rpx;
+
+}
+.del image {
+  width: 30rpx;
+  height: 30rpx;
+}
+.face image {
+  border-radius: 50%;
+ 
+}
+.music-item-info {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  margin-top: 20rpx;
+  
+}
+
+.music-item-info .album{
+  font-size: 12px;
+  color: #b8b8b8;
+  padding-left: 18rpx;
+
+}
+.face-album {
+  display: flex;
+}
+
+
+/* 底部play */
+.play {
+  display: flex;
+  background-color: #dfbf78;
+  justify-content: space-between;
+  padding: 9rpx;
+
+}
+.play-left {
+  display: flex;
+
+}
+.play-right {
+  display: flex;
+  align-items: center;
+}
+.left-content {
+  font-size: 12px;
+  padding-left: 10rpx;
+}
+.left-conent-top {
+  color: #fff;
+}
+.left-avanta image {
+  width: 65rpx;
+  height: 65rpx;
+  border-radius: 50%;
+}
+.play-right image {
+  width: 38rpx;
+  height: 38rpx;
+}
+.play-icon image {
+  margin-right: 20rpx;
+}
+.play-list image {
+  margin-right: 20rpx;
+}

@@ -1,0 +1,10 @@
+/* pages/ceshi2/ceshi2.wxss */
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.hcl {
+  background-color: green;
+}

@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/ceshi/ceshi",
+    "pages/ceshi2/ceshi2"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text":"电话"
+    },
+    {
+      "pagePath": "pages/ceshi/ceshi",
+      "text": "测试"
+    }
+    ],
+    "color": "#ab33dd",
+    "selectedColor": "#dafd3d"
+  }
+}

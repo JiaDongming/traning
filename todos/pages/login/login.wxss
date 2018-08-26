@@ -1,0 +1,74 @@
+/* pages/login/login.wxss */
+page {
+  height: 100%;
+  font-family: "微软雅黑";
+}
+.container {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.content {
+  height: 80%;
+  width: 80%;
+  background-color: #fff;
+  border: 4rpx solid #dcdcdc;
+  border-radius: 3%;
+  margin: 80rpx;
+}
+.info {
+  text-align: center;
+  margin: 80rpx;
+}
+.face {
+  margin-bottom: 20rpx;
+}
+.face image {
+  width: 48px;
+  height: 48px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  
+}
+.login  input {
+  width: 80%;
+   border: 1px solid #ccc;
+    margin-bottom: 20rpx;
+    border-radius: 8rpx;
+    padding: 10rpx;
+    font-size: 14px;
+  
+}
+
+.reg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reg button {
+  width: 84%;
+  margin-bottom: 40rpx;
+}
+
+.getpassword {
+  text-align: center;
+  padding-top: 60rpx;
+}
+
+.getpassword navigator{
+  font-size: 28rpx;
+  color: #6aa4c2;
+  }
+.copyright {
+  font-size: 28rpx;
+  color: #666;
+}

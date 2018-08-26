@@ -1,0 +1,28 @@
+<!--pages/todolist/todolist.wxml-->
+<view class='container'>
+  <!-- 添加事项 -->
+  <view class='search'>
+    <image bindtap='addHandle' src='{{search.iconUrl}}'></image>
+    <input type='text' placeholder='{{search.search_text}}' placeholder-class='search-p' bindinput='inputHandle' value='{{addInput}}'></input>
+  </view>
+
+  <!-- 事项列表 -->
+  <view class='list'wx:if='{{show}}'>
+    <view class='item' wx:for='{{list}}'>
+      <icon id='{{index}}' bindtap='changeStatus' type='{{item.status?"success":"circle"}}' size='20'></icon>
+      <text class='{{item.status?"done":""}}'>{{item.todo}}</text>
+      <icon type='clear' data-index='{{index}}' bindtap='delItem' size='15'></icon>
+    </view>
+
+  </view>
+
+  <view class='btn' wx:if='{{show}}'>
+    <text bindtap='togglelist'>全选</text>
+    <text>剩余{{leftitem}}项</text>
+    <text bindtap='clearall'>清空</text>
+  </view>
+
+  <view wx:if='{{!show}}'>
+  <text>暂无数据</text>
+  </view>
+</view>

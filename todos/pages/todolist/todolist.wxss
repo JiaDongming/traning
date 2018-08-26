@@ -1,0 +1,60 @@
+/* pages/todolist/todolist.wxss */
+.container {
+  padding: 20rpx;
+
+}
+/* 添加框 */
+.search {
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  border-radius: 8rpx;
+  padding: 6rpx;
+}
+
+.search image {
+  width: 64rpx;
+  height: 64rpx;
+  margin-right: 10rpx;
+}
+
+.search-p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+/* 事项列表 */
+.list {
+  border: 1px solid #ccc;
+  margin-top: 10rpx;
+  border-radius: 8rpx;
+
+}
+.item  {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20rpx;
+  border-bottom: 1px solid #ccc;
+
+}
+.list .item:last-child{
+  border: none;
+}
+.list .item icon {
+  margin: 20rpx;
+}
+.item text {
+  flex: 1;
+}
+.done {
+  color: #54b32e;
+}
+
+/* 按钮 */
+.btn {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #6aa4c2;
+  font-weight: bold;
+}

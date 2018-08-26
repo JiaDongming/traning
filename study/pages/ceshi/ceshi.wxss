@@ -1,0 +1,11 @@
+/* pages/ceshi/ceshi.wxss */
+.nav {
+  width: 710rpx;
+  padding: 0 20rpx;
+  display: flex;
+  justify-content: space-between;
+  background: orange;
+  color: white;
+  height: 40px;
+  line-height: 40px;
+}
